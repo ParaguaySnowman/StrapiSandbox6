@@ -4,7 +4,8 @@
   "info": {
     "singularName": "card",
     "pluralName": "cards",
-    "displayName": "card"
+    "displayName": "card",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,11 +16,22 @@
       "type": "string"
     },
     "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "video": {
+      "type": "string"
+    },
+    "media_type": {
+      "type": "enumeration",
+      "enum": [
+        "video",
+        "document"
+      ]
     }
   }
 }

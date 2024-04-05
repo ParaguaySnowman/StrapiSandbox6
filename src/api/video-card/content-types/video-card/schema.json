@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "video_cards",
+  "info": {
+    "singularName": "video-card",
+    "pluralName": "video-cards",
+    "displayName": "video-card"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "embed_code": {
+      "type": "string"
+    }
+  }
+}
